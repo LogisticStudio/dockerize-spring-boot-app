@@ -3,10 +3,10 @@
 # Set variables
 PROJECT_ID="consious-coder"
 IMAGE_NAME="my-spring-boot-app"
-TAG_NAME="2.0"
+TAG_NAME="3.0"
 SERVICE_NAME="my-spring-boot-app-service"
 REGION="us-west2"
-PORT="8080"
+PORT="6060"
 REPOSITORY="my-spring-boot-app"
 
 docker build -t ${IMAGE_NAME}:${TAG_NAME} ..
